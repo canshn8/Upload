@@ -1,0 +1,140 @@
+body{
+    background-image: url('image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}
+
+
+
+@keyframes zed {
+    from {
+        background-position: center 0;
+    }
+    to{
+        background-position: center 200%;
+    }
+}
+
+
+h1{
+    margin: 0;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 30vh;
+    letter-spacing: 1vw;
+    color: aliceblue;
+    background-image: url('image/alv.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: zed 8s linear infinite;
+}
+
+
+#blm{
+    border: solid 0.2rem bisque;
+}
+
+
+#card {
+    background-image: url('image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    border: solid 1px black;
+    border-radius: 25px 25px;
+    margin-bottom: 100px;
+}
+
+.cardlar {
+    margin-top: 100px;
+  
+    display: inline-block;
+
+}
+
+#RnkDgs {
+    border-radius: 200px 200px ;
+    color: black;
+}
+
+#bir {
+    max-height: 400px;
+    height: 200px;
+    border: solid 1px black;
+    display: block;
+    border-radius: 25px 25px;
+
+}
+
+
+#iki {
+    max-height: 400px;
+    height: 200px;
+    border: solid 1px black;
+    display: block;
+    border-radius: 25px 25px;
+
+
+}
+
+#uc {
+    max-height: 400px;
+    height: 200px;
+    border: solid 1px black;
+    display: block;
+    border-radius: 25px 25px;
+
+}
+
+#dort {
+    max-height: 400px;
+    height: 200px;
+    border: solid 1px black;
+    display: block;
+    border-radius: 25px 25px;
+
+
+}
+
+#bd {
+    border: solid 2px black;
+    border-radius: 40px 10px ;
+}
+
+#cardbd{
+    background-image: url('image/crdbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px 25px;
+}
+
+
+/* #cardftr{
+    background-image: url('image/crdbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#btnYkle{
+    color: black;
+    border: 1px solid black;
+    border-radius: 35px 5px 5px 35px;
+}
+
+
+#btnRst{
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px 35px 35px 5px;
+}
+
+
+#download {
+    max-height: 200px;
+    height: 100px;
+    margin-top: 50px;
+   
+}
+
+
